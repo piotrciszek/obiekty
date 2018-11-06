@@ -40,3 +40,25 @@ KontoBankowe
 2.kontoBeaty(555L, 2000)
 3.Przetestuj przesyłpieniędzy pomiędzy
 kontami
+
+Wyscig
+Wykonaj poniższe zadania:
+1.Utwórz nowy projekt o nazwie ‚Wyscig’
+2.Utwórz klasę o nazwie Zawodnik
+3.Zawodnik powinien posiadać takie pola jak:
+1.Imie
+2.Identyfikator (numer startowy)
+3.Predkoscminimalna
+4.Predkoscmaksymalna
+5.Pokonana odległość
+4.Oraz metody:
+1.przedstawSie():void//wyswietladane o
+zawodniku np. „Nazywam się Robert, mam numer
+4#, biegam z predkosciaod 10km/h do 20 km/h”
+2.biegnij():void–pokonuje odległość w
+Random(min, max)* lub max+min/2
+5.W metodzie psvmutwórz 3 zawodników
+6.Przeprowadź symulację zawodów -wywołuj
+metodę biegnij() na każdym z zawodników
+dopóki nie wyłonisz zwyciężcy(przebiegnięcie
+50 km)
