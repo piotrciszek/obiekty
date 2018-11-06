@@ -1,0 +1,14 @@
+Utworzenie nowego pakietu
+2.Utworzenie klasy Osoba
+3.Utworzenie pól :
+•imie:String
+•rok urodzenia:int
+4.Utworzenie metody:
+przedstawSie():void
+5.Implementacja metody
+6.Utworzenie 3 obiektów:
+1.Ania lat 25
+2.Andrzej lat 54
+3.Mariola lat 68
+7.Uruchomienie metody przedstawSiena
+każdym z obiektów
