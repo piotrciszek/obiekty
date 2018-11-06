@@ -1,3 +1,5 @@
+Osoba
+
 Utworzenie nowego pakietu
 2.Utworzenie klasy Osoba
 3.Utworzenie pól :
@@ -12,3 +14,14 @@ Utworzenie nowego pakietu
 3.Mariola lat 68
 7.Uruchomienie metody przedstawSiena
 każdym z obiektów
+
+1.Aktualizacja klasy Osoba
+2.Dodanie konstruktora
+3.Utworzenie dodatkowych 3 obiektów typu
+osoba za pomocą konstruktora
+4.Umieszczenie wszystkich obiektów Osoba
+do tablicy
+5.Wyświetlenie wszystkich osób z tablicy
+w pętli
+6.* Wyświetlenie tylko pań
+7.* Wyświetlenie tylko panów
