@@ -62,3 +62,53 @@ Random(min, max)* lub max+min/2
 metodę biegnij() na każdym z zawodników
 dopóki nie wyłonisz zwyciężcy(przebiegnięcie
 50 km)
+
+Bohater
+1.Utwórz klasę „SuperBohater”
+2.Dodaj 2 pola tekstowe : nazwa, supermoc
+3.Utwórz 3 bohaterów
+4.Przećwicz zachowanie obiektów na przykładach:
+a.bohater1 = bohater2; bohater1=null; sout(bohater2==null)
+b.bohater1=null; bohater2=bohater1; bohater1=bohater3;
+soutprzyrównanie do nullna każdym z bohaterów
+5.*Przećwicz zachowanie się Stringów poprzez tworzenie
+literałów i nowych obiektów typu String
+a.Sprawdź zachowanie metody .equals()
+b.Sprawdź zachowanie przyrównania ==
+
+Piwo
+1. Generator piwa na imprezę. Utwórz typ
+wyliczeniowy GatunekPiwa, który może przyjmować
+takie wartości jak: LAGER, PILZNER, STOUT, PORTER,
+MIODOWE. Następnie utwórz klasę Impreza, która w
+bezargumentowym konstruktorze generuje losowo 2
+wybrane gatunki piwa i przypisuje je do tablicy
+2 elementowej (pola klasy Impreza). Następnie
+dodaj metodę wyświetl nazwę piwa oraz kolor np.
+„Dostępne piwa to: Piwo Miodowe (jasne) oraz Piwo
+Stout (ciemne).”[Czyli opcja
+1. Metoda w enumie opisPiwa():String  Piwo
+Miodowe (jasne) , opcja
+2. Metoda w imprezie – enum.pobierzNazwePiwa
+():String + enum.pobierzTypPiwa():String]
+
+Samochod
+Utwórz klasę Samochod o polach predkosc, kolor,
+marka, rocznik. Niech prędkość będzie domyślnie
+równa 0 dla nowo utworzonego auta (nie trzeba
+jej podawać w konstruktorze). Następnie :
+a. Utwórz metodę przyspiesz(), która rozpędzi
+auto o 20 km/h ale do max 140 km/h
+b. nadpisz metodę .toString() tak aby wyświetlić
+opis auta (np. „Czerwone BMW rocznik 2000”)
+c. nadpisz metodę equals(), która zwróci true
+jeśli kolor, marka i rocznik będą takie same
+d. Przetestuj powyższe rozwiązania
+e. Utwórz podklasę SzybkiSamochod
+f. Nadpisz metodę przyspiesz() aby osiagac max
+200 km/h
+g. Utwórz obiekt SzybkiSamochod o tych samych
+parametrach co Samochod – czy są sobie równe ?
+h. Jeśli tak, to nadpisz .equals() dla
+SzybkiegoSamochodu, tak aby
+Samochod!=SzybkiSamochod
